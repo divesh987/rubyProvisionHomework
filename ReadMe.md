@@ -36,6 +36,10 @@ So you can interact and play in the development enviroment. Vagrant ssh allows y
 
 ### Run the application 
 In order to run the ruby application, you must first direct into the app directory with the command:
-``` cd app ```
+``` cd app ```.
+
+Before running the application, you must run the command:
+```bundle install```.
+
 To run the application you must execute the command:
 ```ruby app.rb``` and your app  will execute!. Your application will be hosted on <http://development.local:4567> 
